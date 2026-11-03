@@ -1,0 +1,311 @@
+# SF4 Addon Manager - Cloud Configuration
+# ---------------------------------------
+# Multi-version URLs: fill in the URL for each SF4 build tag.
+# Leave blank ("") for versions not yet packaged.
+# The plugin auto-detects the running server version and uses the matching URL.
+
+cloud-sync:
+  enabled: true
+  url: "https://raw.githubusercontent.com/SlimeCore-MC/SF4-Addons/main/Addons/java/core/api/config/addonmanager.yml"
+  version-urls:
+    "26.2": "https://raw.githubusercontent.com/SlimeCore-MC/SF4-Addons/main/Addons/java/core/api/config/addonmanager.yml"
+    "26.1.2": "https://raw.githubusercontent.com/SlimeCore-MC/SF4-Addons/main/Addons/java/core/api/config/addonmanager.yml"
+    "26.1.1": "https://raw.githubusercontent.com/SlimeCore-MC/SF4-Addons/main/Addons/java/core/api/config/addonmanager.yml"
+    "26.1": "https://raw.githubusercontent.com/SlimeCore-MC/SF4-Addons/main/Addons/java/core/api/config/addonmanager.yml"
+    "1.21.11": "https://raw.githubusercontent.com/SlimeCore-MC/SF4-Addons/main/Addons/java/core/api/config/addonmanager.yml"
+    "1.20.4": ""
+    "1.19.4": ""
+  interval-minutes: 3
+  fallback-to-local-on-empty: true
+  fallback-to-local-on-failure: true
+
+addons:
+  exoticgarden:
+    name: "ExoticGarden"
+    enabled: false
+    download: false
+    auto-update: true
+    sha256: ""
+    checksum-url: ""
+    api-url: ""
+    versions:
+      "26.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ExoticGarden/26.2/releases"
+      "26.1.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ExoticGarden/26.1.2/releases"
+      "26.1.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ExoticGarden/26.1.1/releases"
+      "26.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ExoticGarden/26.1/releases"
+      "1.21.11": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ExoticGarden/1.21.11/releases"
+      "1.20.4": ""
+      "1.19.4": ""
+
+  electricspawners:
+    name: "ElectricSpawners"
+    enabled: false
+    download: false
+    auto-update: true
+    sha256: ""
+    checksum-url: ""
+    api-url: ""
+    versions:
+      "26.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ElectricSpawners/26.2/releases"
+      "26.1.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ElectricSpawners/26.1.2/releases"
+      "26.1.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ElectricSpawners/26.1.1/releases"
+      "26.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ElectricSpawners/26.1/releases"
+      "1.21.11": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ElectricSpawners/1.21.11/releases"
+      "1.20.4": ""
+      "1.19.4": ""
+
+  fluffymachines:
+    name: "FluffyMachines"
+    enabled: false
+    download: false
+    auto-update: true
+    sha256: ""
+    checksum-url: ""
+    api-url: ""
+    versions:
+      "26.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/FluffyMachines/26.2/releases"
+      "26.1.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/FluffyMachines/26.1.2/releases"
+      "26.1.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/FluffyMachines/26.1.1/releases"
+      "26.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/FluffyMachines/26.1/releases"
+      "1.21.11": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/FluffyMachines/1.21.11/releases"
+      "1.20.4": ""
+      "1.19.4": ""
+
+  infinityexpansion:
+    name: "InfinityExpansion"
+    enabled: false
+    download: false
+    auto-update: true
+    sha256: ""
+    checksum-url: ""
+    api-url: ""
+    versions:
+      "26.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/InfinityExpansion/26.2/releases"
+      "26.1.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/InfinityExpansion/26.1.2/releases"
+      "26.1.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/InfinityExpansion/26.1.1/releases"
+      "26.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/InfinityExpansion/26.1/releases"
+      "1.21.11": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/InfinityExpansion/1.21.11/releases"
+      "1.20.4": ""
+      "1.19.4": ""
+
+  foxymachines:
+    name: "FoxyMachines"
+    enabled: false
+    download: false
+    auto-update: true
+    sha256: ""
+    checksum-url: ""
+    api-url: ""
+    versions:
+      "26.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/FoxyMachines/26.2/releases"
+      "26.1.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/FoxyMachines/26.1.2/releases"
+      "26.1.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/FoxyMachines/26.1.1/releases"
+      "26.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/FoxyMachines/26.1/releases"
+      "1.21.11": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/FoxyMachines/1.21.11/releases"
+      "1.20.4": ""
+      "1.19.4": ""
+
+  advancedtech:
+    name: "AdvancedTech"
+    enabled: false
+    download: false
+    auto-update: true
+    sha256: ""
+    checksum-url: ""
+    api-url: ""
+    versions:
+      "26.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/AdvancedTech/26.2/releases"
+      "26.1.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/AdvancedTech/26.1.2/releases"
+      "26.1.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/AdvancedTech/26.1.1/releases"
+      "26.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/AdvancedTech/26.1/releases"
+      "1.21.11": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/AdvancedTech/1.21.11/releases"
+      "1.20.4": ""
+      "1.19.4": ""
+
+  ecopower:
+    name: "EcoPower"
+    enabled: false
+    download: false
+    auto-update: true
+    sha256: ""
+    checksum-url: ""
+    api-url: ""
+    versions:
+      "26.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/EcoPower/26.2/releases"
+      "26.1.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/EcoPower/26.1.2/releases"
+      "26.1.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/EcoPower/26.1.1/releases"
+      "26.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/EcoPower/26.1/releases"
+      "1.21.11": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/EcoPower/1.21.11/releases"
+      "1.20.4": ""
+      "1.19.4": ""
+
+  supreme:
+    name: "Supreme"
+    enabled: false
+    download: false
+    auto-update: true
+    sha256: ""
+    checksum-url: ""
+    api-url: ""
+    versions:
+      "26.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/Supreme/26.2/releases"
+      "26.1.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/Supreme/26.1.2/releases"
+      "26.1.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/Supreme/26.1.1/releases"
+      "26.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/Supreme/26.1/releases"
+      "1.21.11": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/Supreme/1.21.11/releases"
+      "1.20.4": ""
+      "1.19.4": ""
+
+  ExtraGear:
+    name: "ExtraGear"
+    enabled: false
+    download: false
+    auto-update: true
+    sha256: ""
+    checksum-url: ""
+    api-url: ""
+    versions:
+      "26.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ExtraGear/26.2/releases"
+      "26.1.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ExtraGear/26.1.2/releases"
+      "26.1.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ExtraGear/26.1.1/releases"
+      "26.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ExtraGear/26.1/releases"
+      "1.21.11": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ExtraGear/1.21.11/releases"
+      "1.20.4": ""
+      "1.19.4": ""
+
+  ExtraTools:
+    name: "ExtraTools"
+    enabled: false
+    download: false
+    auto-update: true
+    sha256: ""
+    checksum-url: ""
+    api-url: ""
+    versions:
+      "26.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ExtraTools/26.2/releases"
+      "26.1.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ExtraTools/26.1.2/releases"
+      "26.1.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ExtraTools/26.1.1/releases"
+      "26.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ExtraTools/26.1/releases"
+      "1.21.11": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/ExtraTools/1.21.11/releases"
+      "1.20.4": ""
+      "1.19.4": ""   
+
+  slimytreetaps:
+    name: "slimytreetaps"
+    enabled: false
+    download: false
+    auto-update: true
+    sha256: ""
+    checksum-url: ""
+    api-url: ""
+    versions:
+      "26.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/slimytreetaps/26.2/releases"
+      "26.1.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/slimytreetaps/26.1.2/releases"
+      "26.1.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/slimytreetaps/26.1.1/releases"
+      "26.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/slimytreetaps/26.1/releases"
+      "1.21.11": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/slimytreetaps/1.21.11/releases"
+      "1.20.4": ""
+      "1.19.4": ""   
+
+  Networks:
+    name: "networks"
+    enabled: false
+    download: false
+    auto-update: true
+    sha256: ""
+    checksum-url: ""
+    api-url: ""
+    versions:
+      "26.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/Networks/26.2/releases"
+      "26.1.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/Networks/26.1.2/releases"
+      "26.1.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/Networks/26.1.1/releases"
+      "26.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/Networks/26.1/releases"
+      "1.21.11": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/Networks/1.21.11/releases"
+      "1.20.4": ""
+      "1.19.4": ""         
+
+  SoulJars:
+    name: "SoulJars"
+    enabled: false
+    download: false
+    auto-update: true
+    sha256: ""
+    checksum-url: ""
+    api-url: ""
+    versions:
+      "26.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/SoulJars/26.2/releases"
+      "26.1.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/SoulJars/26.1.2/releases"
+      "26.1.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/SoulJars/26.1.1/releases"
+      "26.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/SoulJars/26.1/releases"
+      "1.21.11": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/SoulJars/1.21.11/releases"
+      "1.20.4": ""
+      "1.19.4": ""
+
+  MobCapturer:
+    name: "MobCapturer"
+    enabled: false
+    download: false
+    auto-update: true
+    sha256: ""
+    checksum-url: ""
+    api-url: ""
+    versions:
+      "26.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/MobCapturer/26.2/releases"
+      "26.1.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/MobCapturer/26.1.2/releases"
+      "26.1.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/MobCapturer/26.1.1/releases"
+      "26.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/MobCapturer/26.1/releases"
+      "1.21.11": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/MobCapturer/1.21.11/releases"
+      "1.20.4": ""
+      "1.19.4": ""         
+
+    
+  FNAmplifications:
+    name: "FNAmplifications"
+    enabled: false
+    download: false
+    auto-update: true
+    sha256: ""
+    checksum-url: ""
+    api-url: ""
+    versions:
+      "26.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/FNAmplifications/26.2/releases"
+      "26.1.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/FNAmplifications/26.1.2/releases"
+      "26.1.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/FNAmplifications/26.1.1/releases"
+      "26.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/FNAmplifications/26.1/releases"
+      "1.21.11": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/FNAmplifications/1.21.11/releases"
+      "1.20.4": ""
+      "1.19.4": ""         
+
+  SFAdvancements:
+    name: "SFAdvancements"
+    enabled: false
+    download: false
+    auto-update: true
+    sha256: ""
+    checksum-url: ""
+    api-url: ""
+    versions:
+      "26.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/SFAdvancements/26.2/releases"
+      "26.1.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/SFAdvancements/26.1.2/releases"
+      "26.1.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/SFAdvancements/26.1.1/releases"
+      "26.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/SFAdvancements/26.1/releases"
+      "1.21.11": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/SFAdvancements/1.21.11/releases"
+      "1.20.4": ""
+      "1.19.4": ""         
+
+  DynaTech:
+    name: "DynaTech"
+    enabled: false
+    download: false
+    auto-update: true
+    sha256: ""
+    checksum-url: ""
+    api-url: ""
+    versions:
+      "26.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/DynaTech/26.2/releases"
+      "26.1.2": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/DynaTech/26.1.2/releases"
+      "26.1.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/DynaTech/26.1.1/releases"
+      "26.1": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/DynaTech/26.1/releases"
+      "1.21.11": "https://github.com/SlimeCore-MC/SF4-Addons/tree/main/Addons/DynaTech/1.21.11/releases"
+      "1.20.4": ""
+      "1.19.4": ""         
