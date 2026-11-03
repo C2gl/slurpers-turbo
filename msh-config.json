@@ -1,0 +1,32 @@
+{
+  "Server": {
+    "Folder": "",
+    "FileName": "paper.jar",
+    "Version": "26.1.2",
+    "Protocol": 775
+  },
+  "Commands": {
+    "StartServer": "java <Commands.StartServerParam> -jar <Server.FileName> nogui",
+    "StartServerParam": "-Xms1000M -Xmx4000M",
+    "StopServer": "stop",
+    "StopServerAllowKill": 10
+  },
+  "Msh": {
+    "Debug": 2,
+    "ID": "9a4c230f16a635e02e9fa757653af6b03dc072a1",
+    "MshPort": 25565,
+    "MshPortQuery": 25567,
+    "EnableQuery": true,
+    "TimeBeforeStoppingEmptyServer": 600,
+    "SuspendAllow": false,
+    "SuspendRefresh": -1,
+    "InfoHibernation": "                   §fserver status:\n                   §b§lSLEEPING",
+    "InfoStarting": "                   §fserver status:\n                   §6§lWAKING UP",
+    "NotifyUpdate": true,
+    "NotifyMessage": true,
+    "Whitelist": [],
+    "WhitelistImport": false,
+    "ShowResourceUsage": false,
+    "ShowInternetUsage": false
+  }
+}
