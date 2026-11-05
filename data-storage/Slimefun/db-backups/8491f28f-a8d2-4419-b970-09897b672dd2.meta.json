@@ -1,0 +1,17 @@
+{
+  "backupId": "8491f28f-a8d2-4419-b970-09897b672dd2",
+  "provider": "Legacy YAML",
+  "createdAt": "2026-11-04T02:02:42.945110887Z",
+  "slimefunVersion": "4.0-UNOFFICIAL",
+  "checksum": "300da67cca8f3e83ebbea530301d36bc73dfc5e0bdf99c688fbae75b67e01434",
+  "format": "LEGACY_FILES",
+  "automatic": true,
+  "rowCounts": {
+    "Players": 3,
+    "waypoints": 0,
+    "stored-blocks": 0,
+    "stored-inventories": 0,
+    "universal-inventories": 0,
+    "stored-chunks": 0
+  }
+}

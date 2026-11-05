@@ -1,13 +1,13 @@
-[01:14:46] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.5+8-LTS; Eclipse Adoptium Temurin-25.0.5+8) on Linux 7.0.14-26-pve (amd64)
-[01:14:46] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) for Minecraft 26.1.2
-[01:14:46] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:14:47] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[01:14:47] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (3):
+[22:02:24] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.5+8-LTS; Eclipse Adoptium Temurin-25.0.5+8) on Linux 7.0.14-28-pve (amd64)
+[22:02:24] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) for Minecraft 26.1.2
+[22:02:24] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[22:02:24] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[22:02:24] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (3):
  - PlaytimeCommand (1.4.0), Veinminer (2.13.0), Veinminer_Enchantment (2.13.0)
-[01:14:47] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+[22:02:24] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
  - BlueMap (5.29), Chunky (1.5.3), Slimefun (4.0-UNOFFICIAL), TAB (5.0.7), ViaVersion (5.12.2)
-[01:14:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[01:14:49] [ServerMain/WARN]: Error reading pack metadata, attempting fallback type
+[22:02:27] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[22:02:27] [ServerMain/WARN]: Error reading pack metadata, attempting fallback type
 com.google.gson.JsonParseException: Pack key supported_formats is deprecated starting from pack format 82. Remove supported_formats from your pack.mcmeta.
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-9.0.19.jar:?]
 	at net.minecraft.server.packs.resources.ResourceMetadata$2.getSection(ResourceMetadata.java:38) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
@@ -29,7 +29,7 @@ com.google.gson.JsonParseException: Pack key supported_formats is deprecated sta
 	at org.bukkit.craftbukkit.Main.main(Main.java:204) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
 	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
-[01:14:49] [ServerMain/WARN]: Error reading pack metadata, attempting fallback type
+[22:02:27] [ServerMain/WARN]: Error reading pack metadata, attempting fallback type
 com.google.gson.JsonParseException: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-9.0.19.jar:?]
 	at net.minecraft.server.packs.resources.ResourceMetadata$2.getSection(ResourceMetadata.java:38) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
@@ -51,232 +51,195 @@ com.google.gson.JsonParseException: Pack declares support for version newer than
 	at org.bukkit.craftbukkit.Main.main(Main.java:204) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
 	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
-[01:14:51] [ServerMain/INFO]: Loaded 2208 recipes
-[01:14:51] [ServerMain/INFO]: Loaded 1695 advancements
-[01:14:51] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[01:14:51] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 186.1ms
-[01:14:51] [Server thread/INFO]: Starting minecraft server version 26.1.2
-[01:14:51] [Server thread/INFO]: Loading properties
-[01:14:51] [Server thread/INFO]: This server is running Paper version 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) (Implementing API version 26.1.2.build.74-stable)
-[01:14:51] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:14:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:14:51] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:14:51] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[01:14:51] [Server thread/INFO]: Default game type: SURVIVAL
-[01:14:51] [Server thread/INFO]: Generating keypair
-[01:14:51] [Server thread/INFO]: Starting Minecraft server on *:25566
-[01:14:51] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[01:14:51] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[01:14:51] [Server thread/INFO]: [SpigotLibraryLoader] [BlueMap] Loading 1 libraries... please wait
-[01:14:51] [Server thread/INFO]: [SpigotLibraryLoader] [BlueMap] Loaded library /opt/crafty-controller/crafty/crafty-4/servers/d9523050-5d3c-4c0a-91fd-21d9da11f1bd/libraries/com/flowpowered/flow-math/1.0.3/flow-math-1.0.3.jar
-[01:14:52] [Server thread/INFO]: [BlueMap] Loading server plugin BlueMap v5.29
-[01:14:52] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.13.0
-[01:14:52] [Server thread/INFO]: [Veinminer] Detected platform: Paper
-[01:14:52] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.12.2
-[01:14:52] [Server thread/INFO]: [ViaVersion] ViaVersion 5.12.2 is now loaded. Registering protocol transformers and injecting...
-[01:14:52] [Server thread/INFO]: [Slimefun] Loading server plugin Slimefun v4.0-UNOFFICIAL
-[01:14:52] [Server thread/INFO]: [PlaytimeCommand] Loading server plugin PlaytimeCommand v1.4.0
-[01:14:52] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.5.3
-[01:14:52] [Server thread/INFO]: [Veinminer_Enchantment] Loading server plugin Veinminer_Enchantment v2.13.0
-[01:14:52] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[01:14:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:14:52] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.13.0
-[01:14:52] [Server thread/INFO]: [Veinminer_Enchantment] Enabling Veinminer_Enchantment v2.13.0
-[01:14:52] [Server thread/INFO]: [Veinminer_Enchantment] Veinminer_Enchantment loaded (paper)
-[01:14:52] [Server thread/INFO]: Preparing level "world"
-[01:14:53] [DefaultDispatcher-worker-1/INFO]: [de.miraculixx.veinminer.Veinminer] veinminer is up to date
-[01:14:53] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[01:14:53] [Server thread/INFO]: Prepared spawn area in 1 ms
-[01:14:53] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[01:14:53] [Server thread/INFO]: Prepared spawn area in 0 ms
-[01:14:53] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[01:14:53] [Server thread/INFO]: Prepared spawn area in 0 ms
-[01:14:53] [Server thread/INFO]: Done preparing level "world" (0.405s)
-[01:14:53] [Server thread/INFO]: [BlueMap] Enabling BlueMap v5.29
-[01:14:53] [Server thread/INFO]: [BlueMap] Saving all worlds once, to make sure all required world-properties are present...
-[01:14:53] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
-[01:14:53] [BlueMap-Load/INFO]: [BlueMap] Loading...
-[01:14:53] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.12.2
-[01:14:53] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
-[01:14:53] [Server thread/INFO]: [Slimefun] Enabling Slimefun v4.0-UNOFFICIAL
-[01:14:53] [Server thread/INFO]: [Slimefun] Paper detected! Performance optimizations applied.
-[01:14:53] [Server thread/INFO]: [Slimefun] Creating directories...
-[01:14:53] [Server thread/INFO]: [Slimefun] Loading language files...
-[01:14:53] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[01:14:53] [Server thread/INFO]: [Slimefun] Loaded language "en"
-[01:14:53] [Server thread/INFO]: [Slimefun] Available languages: en, de, fr, it, es, ru, pl, uk, sv, nl, da, cs, ro, bg, pt, pt-BR, hu, lv, sk, vi, id, zh-CN, zh-TW, ja, ko, he, ar, tr, fa, th, tl
-[01:14:53] [Server thread/INFO]: [Slimefun] ======================================================
-[01:14:53] [Server thread/INFO]: [Slimefun]   Slimefun4Core Storage Engine
-[01:14:53] [Server thread/INFO]: [Slimefun] ======================================================
-[01:14:53] [Server thread/INFO]: [Slimefun]   Provider    : Legacy YAML
-[01:14:53] [Server thread/INFO]: [Slimefun]   Status      : Legacy YAML
-[01:14:53] [Server thread/INFO]: [Slimefun]   Ping        : 0 ms
-[01:14:53] [Server thread/INFO]: [Slimefun]   Pool        : n/a (file storage)
-[01:14:53] [Server thread/INFO]: [Slimefun]   Cache       : Enabled (5000 max, 30 min TTL)
-[01:14:53] [Server thread/INFO]: [Slimefun]   Tables      : n/a (file storage)
-[01:14:53] [Server thread/INFO]: [Slimefun]   Integrity   : Not applicable (Legacy YAML)
-[01:14:53] [Server thread/INFO]: [Slimefun]   Migrate     : n/a (file storage)
-[01:14:53] [Server thread/INFO]: [Slimefun]   Backup      : Ready (auto, every 6h, file archive)
-[01:14:53] [Server thread/INFO]: [Slimefun]   Checkpoint  : Ready (0/10 kept, manual only)
-[01:14:53] [Server thread/INFO]: [Slimefun]   Worlds      : Disabled
-[01:14:53] [Server thread/INFO]: [Slimefun] ======================================================
-[01:14:53] [Server thread/INFO]: [Slimefun]   Storage Engine initialized. Manage it in-game with /sf storage gui
-[01:14:53] [Server thread/INFO]: [Slimefun] ======================================================
-[01:14:53] [Server thread/INFO]: [Slimefun] Embedded bStats started. Plugin ID: 30622
-[01:14:53] [Server thread/INFO]: [Slimefun] Enabled Analytics Service
-[01:14:53] [Server thread/INFO]: [Slimefun] Starting Auto-Updater...
-[01:14:53] [Server thread/WARN]: [Slimefun] #######################################################
-[01:14:53] [Server thread/WARN]: [Slimefun] It looks like you are using an unofficially modified build of Slimefun!
-[01:14:53] [Server thread/WARN]: [Slimefun] Modrinth release checks are enabled for this unofficial build.
-[01:14:53] [Server thread/WARN]: [Slimefun] Project: slimefuncore
-[01:14:53] [Server thread/WARN]: [Slimefun] Detected game version: 26.1.2.build.74
-[01:14:53] [Server thread/WARN]: [Slimefun] Auto-download updates: enabled
-[01:14:53] [Server thread/WARN]: [Slimefun] Do not report bugs encountered in this Version of Slimefun to any official sources.
-[01:14:53] [Server thread/WARN]: [Slimefun] #######################################################
-[01:14:53] [Server thread/INFO]: [Slimefun] Loading GEO-Resources...
-[01:14:54] [BlueMap-Load/INFO]: [BlueMap] Loading resources...
-[01:14:54] [Slimefun - UpdaterService#startupCheck/INFO]: [Slimefun] ✦ No Modrinth releases matched game version "26.1.2.build.74", retrying without version filter...
-[01:14:54] [Server thread/INFO]: [Slimefun] Loading Tags...
-[01:14:54] [Server thread/INFO]: [Slimefun] Loading items...
-[01:14:54] [Slimefun - UpdaterService#startupCheck/INFO]: [Slimefun] SlimefunCore is already on the latest Modrinth release.
-[01:14:54] [Slimefun - UpdaterService#startupCheck/INFO]: [Slimefun] Current build: SlimefunCore4-2880.jar
-[01:14:54] [Slimefun - UpdaterService#startupCheck/INFO]: [Slimefun] Latest asset: SlimefunCore4-2880.jar
-[01:14:54] [Slimefun - UpdaterService#startupCheck/INFO]: [Slimefun] Latest version: 2880
-[01:14:54] [Server thread/INFO]: [Slimefun] Loading researches...
-[01:14:54] [Server thread/INFO]: [Slimefun] Loading Wiki pages...
-[01:14:54] [Server thread/INFO]: [Slimefun] Registering listeners...
-[01:14:55] [Server thread/INFO]: [✦ AddonManager] Addon system ready — detected server: 26.2
-[01:14:55] [Server thread/INFO]: [✦ AddonManager] Managed addons: 17 | Compatible: 17
-[01:14:55] [Server thread/INFO]: [✦ AddonManager] Repository: plugins/Slimefun/addons/repository
-[01:14:55] [Server thread/INFO]: [✦ AddonManager] Cloud sync: https://raw.githubusercontent.com/SlimeCore-MC/SF4-Addons/main/Addons/java/core/api/config/addonmanager.yml
-[01:14:55] [Server thread/INFO]: [Slimefun] Starting Monitor Event Bus...
-[01:14:55] [Server thread/INFO]: [Slimefun] Discord webhook sink registered.
-[01:14:55] [Server thread/INFO]: [Slimefun] Addon folder watcher started: plugins/Slimefun/addons/repository
-[01:14:55] [Server thread/INFO]: [Slimefun] Starting Report System...
-[01:14:55] [Server thread/INFO]: [Slimefun] Automatic error reporting enabled.
-[01:14:55] [Server thread/INFO]: [Slimefun] Loading third-party plugin integrations...
-[01:14:55] [Server thread/INFO]: [Slimefun] Slimefun4Core loaded successfully in 1.75s
-[01:14:55] [Server thread/INFO]: [PlaytimeCommand] Enabling PlaytimeCommand v1.4.0
-[01:14:55] [Server thread/INFO]: [PlaytimeCommand] Initialization started
-[01:14:55] [Server thread/INFO]: [Chunky] Enabling Chunky v1.5.3
-[01:14:55] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[01:14:55] [Server thread/INFO]: [TAB] Failed to initialize minecraft fields for Scoreboards due to a compatibility error. Using fallback solution using Paper API. This will result in: 
+[22:02:28] [ServerMain/INFO]: Loaded 2208 recipes
+[22:02:28] [ServerMain/INFO]: Loaded 1695 advancements
+[22:02:28] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[22:02:29] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 287.2ms
+[22:02:29] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[22:02:29] [Server thread/INFO]: Loading properties
+[22:02:29] [Server thread/INFO]: This server is running Paper version 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) (Implementing API version 26.1.2.build.74-stable)
+[22:02:29] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[22:02:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:02:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:02:29] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[22:02:29] [Server thread/INFO]: Default game type: SURVIVAL
+[22:02:29] [Server thread/INFO]: Generating keypair
+[22:02:29] [Server thread/INFO]: Starting Minecraft server on *:25566
+[22:02:29] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:02:29] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[22:02:29] [Server thread/INFO]: [SpigotLibraryLoader] [BlueMap] Loading 1 libraries... please wait
+[22:02:29] [Server thread/INFO]: [SpigotLibraryLoader] [BlueMap] Loaded library /opt/crafty-controller/crafty/crafty-4/servers/d9523050-5d3c-4c0a-91fd-21d9da11f1bd/libraries/com/flowpowered/flow-math/1.0.3/flow-math-1.0.3.jar
+[22:02:30] [Server thread/INFO]: [BlueMap] Loading server plugin BlueMap v5.29
+[22:02:30] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.13.0
+[22:02:30] [Server thread/INFO]: [Veinminer] Detected platform: Paper
+[22:02:30] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.12.2
+[22:02:30] [Server thread/INFO]: [ViaVersion] ViaVersion 5.12.2 is now loaded. Registering protocol transformers and injecting...
+[22:02:31] [Server thread/INFO]: [Slimefun] Loading server plugin Slimefun v4.0-UNOFFICIAL
+[22:02:31] [Server thread/INFO]: [PlaytimeCommand] Loading server plugin PlaytimeCommand v1.4.0
+[22:02:31] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.5.3
+[22:02:31] [Server thread/INFO]: [Veinminer_Enchantment] Loading server plugin Veinminer_Enchantment v2.13.0
+[22:02:31] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[22:02:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:02:31] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.13.0
+[22:02:31] [Server thread/INFO]: [Veinminer_Enchantment] Enabling Veinminer_Enchantment v2.13.0
+[22:02:31] [Server thread/INFO]: [Veinminer_Enchantment] Veinminer_Enchantment loaded (paper)
+[22:02:31] [Server thread/INFO]: Preparing level "world"
+[22:02:31] [DefaultDispatcher-worker-1/INFO]: [de.miraculixx.veinminer.Veinminer] veinminer is up to date
+[22:02:31] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[22:02:31] [Server thread/INFO]: Preparing spawn area: 100%
+[22:02:31] [Server thread/INFO]: Prepared spawn area in 1 ms
+[22:02:31] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[22:02:31] [Server thread/INFO]: Prepared spawn area in 1 ms
+[22:02:31] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[22:02:31] [Server thread/INFO]: Prepared spawn area in 1 ms
+[22:02:31] [Server thread/INFO]: Done preparing level "world" (0.554s)
+[22:02:31] [Server thread/INFO]: [BlueMap] Enabling BlueMap v5.29
+[22:02:31] [Server thread/INFO]: [BlueMap] Saving all worlds once, to make sure all required world-properties are present...
+[22:02:31] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[22:02:31] [BlueMap-Load/INFO]: [BlueMap] Loading...
+[22:02:31] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.12.2
+[22:02:31] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
+[22:02:31] [Server thread/INFO]: [Slimefun] Enabling Slimefun v4.0-UNOFFICIAL
+[22:02:31] [Server thread/INFO]: [Slimefun] Paper detected! Performance optimizations applied.
+[22:02:31] [Server thread/INFO]: [Slimefun] Creating directories...
+[22:02:32] [Server thread/INFO]: [Slimefun] Loading language files...
+[22:02:32] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[22:02:32] [Server thread/INFO]: [Slimefun] Loaded language "en"
+[22:02:32] [Server thread/INFO]: [Slimefun] Available languages: en, de, fr, it, es, ru, pl, uk, sv, nl, da, cs, ro, bg, pt, pt-BR, hu, lv, sk, vi, id, zh-CN, zh-TW, ja, ko, he, ar, tr, fa, th, tl
+[22:02:32] [Server thread/INFO]: [Slimefun] ======================================================
+[22:02:32] [Server thread/INFO]: [Slimefun]   Slimefun4Core Storage Engine
+[22:02:32] [Server thread/INFO]: [Slimefun] ======================================================
+[22:02:32] [Server thread/INFO]: [Slimefun]   Provider    : Legacy YAML
+[22:02:32] [Server thread/INFO]: [Slimefun]   Status      : Legacy YAML
+[22:02:32] [Server thread/INFO]: [Slimefun]   Ping        : 0 ms
+[22:02:32] [Server thread/INFO]: [Slimefun]   Pool        : n/a (file storage)
+[22:02:32] [Server thread/INFO]: [Slimefun]   Cache       : Enabled (5000 max, 30 min TTL)
+[22:02:32] [Server thread/INFO]: [Slimefun]   Tables      : n/a (file storage)
+[22:02:32] [Server thread/INFO]: [Slimefun]   Integrity   : Not applicable (Legacy YAML)
+[22:02:32] [Server thread/INFO]: [Slimefun]   Migrate     : n/a (file storage)
+[22:02:32] [Server thread/INFO]: [Slimefun]   Backup      : Ready (auto, every 6h, file archive)
+[22:02:32] [Server thread/INFO]: [Slimefun]   Checkpoint  : Ready (0/10 kept, manual only)
+[22:02:32] [Server thread/INFO]: [Slimefun]   Worlds      : Disabled
+[22:02:32] [Server thread/INFO]: [Slimefun] ======================================================
+[22:02:32] [Server thread/INFO]: [Slimefun]   Storage Engine initialized. Manage it in-game with /sf storage gui
+[22:02:32] [Server thread/INFO]: [Slimefun] ======================================================
+[22:02:32] [Server thread/INFO]: [Slimefun] Embedded bStats started. Plugin ID: 30622
+[22:02:32] [Server thread/INFO]: [Slimefun] Enabled Analytics Service
+[22:02:32] [Server thread/INFO]: [Slimefun] Starting Auto-Updater...
+[22:02:32] [Server thread/WARN]: [Slimefun] #######################################################
+[22:02:32] [Server thread/WARN]: [Slimefun] It looks like you are using an unofficially modified build of Slimefun!
+[22:02:32] [Server thread/WARN]: [Slimefun] Modrinth release checks are enabled for this unofficial build.
+[22:02:32] [Server thread/WARN]: [Slimefun] Project: slimefuncore
+[22:02:32] [Server thread/WARN]: [Slimefun] Detected game version: 26.1.2.build.74
+[22:02:32] [Server thread/WARN]: [Slimefun] Auto-download updates: enabled
+[22:02:32] [Server thread/WARN]: [Slimefun] Do not report bugs encountered in this Version of Slimefun to any official sources.
+[22:02:32] [Server thread/WARN]: [Slimefun] #######################################################
+[22:02:32] [Server thread/INFO]: [Slimefun] Loading GEO-Resources...
+[22:02:33] [BlueMap-Load/INFO]: [BlueMap] Loading resources...
+[22:02:33] [Slimefun - UpdaterService#startupCheck/INFO]: [Slimefun] ✦ No Modrinth releases matched game version "26.1.2.build.74", retrying without version filter...
+[22:02:33] [Slimefun - UpdaterService#startupCheck/INFO]: [Slimefun] SlimefunCore is already on the latest Modrinth release.
+[22:02:33] [Slimefun - UpdaterService#startupCheck/INFO]: [Slimefun] Current build: SlimefunCore4-2880.jar
+[22:02:33] [Slimefun - UpdaterService#startupCheck/INFO]: [Slimefun] Latest asset: SlimefunCore4-2880.jar
+[22:02:33] [Slimefun - UpdaterService#startupCheck/INFO]: [Slimefun] Latest version: 2880
+[22:02:33] [Server thread/INFO]: [Slimefun] Loading Tags...
+[22:02:33] [Server thread/INFO]: [Slimefun] Loading items...
+[22:02:34] [Server thread/INFO]: [Slimefun] Loading researches...
+[22:02:34] [Server thread/INFO]: [Slimefun] Loading Wiki pages...
+[22:02:34] [Server thread/INFO]: [Slimefun] Registering listeners...
+[22:02:35] [Server thread/INFO]: [✦ AddonManager] Addon system ready — detected server: 26.2
+[22:02:35] [Server thread/INFO]: [✦ AddonManager] Managed addons: 17 | Compatible: 17
+[22:02:35] [Server thread/INFO]: [✦ AddonManager] Repository: plugins/Slimefun/addons/repository
+[22:02:35] [Server thread/INFO]: [✦ AddonManager] Cloud sync: https://raw.githubusercontent.com/SlimeCore-MC/SF4-Addons/main/Addons/java/core/api/config/addonmanager.yml
+[22:02:35] [Server thread/INFO]: [Slimefun] Starting Monitor Event Bus...
+[22:02:35] [Server thread/INFO]: [Slimefun] Discord webhook sink registered.
+[22:02:35] [Server thread/INFO]: [Slimefun] Addon folder watcher started: plugins/Slimefun/addons/repository
+[22:02:35] [Server thread/INFO]: [Slimefun] Starting Report System...
+[22:02:35] [Server thread/INFO]: [Slimefun] Automatic error reporting enabled.
+[22:02:35] [Server thread/INFO]: [Slimefun] Loading third-party plugin integrations...
+[22:02:35] [Server thread/INFO]: [Slimefun] Slimefun4Core loaded successfully in 3.35s
+[22:02:35] [Server thread/INFO]: [PlaytimeCommand] Enabling PlaytimeCommand v1.4.0
+[22:02:35] [Server thread/INFO]: [PlaytimeCommand] Initialization started
+[22:02:35] [Server thread/INFO]: [Chunky] Enabling Chunky v1.5.3
+[22:02:35] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[22:02:35] [BlueMap-Load/INFO]: [BlueMap] Resources loaded.
+[22:02:35] [Server thread/INFO]: [TAB] Failed to initialize minecraft fields for Scoreboards due to a compatibility error. Using fallback solution using Paper API. This will result in: 
 #1: Compatibility with other plugins being reduced
-[01:14:55] [Server thread/INFO]: [TAB] Failed to initialize minecraft fields for tablist entry management due to a compatibility error. Using fallback solution using Bukkit API. This will result in: 
+[22:02:35] [Server thread/INFO]: [TAB] Failed to initialize minecraft fields for tablist entry management due to a compatibility error. Using fallback solution using Bukkit API. This will result in: 
 #1: Layout feature will not work
 #2: Prevent-spectator-effect feature will not work
 #3: Ping spoof feature will not work
 #4: Tablist formatting missing anti-override
 #5: Tablist formatting not supporting relational placeholders
-[01:14:55] [Server thread/INFO]: [TAB] Please update the plugin to a version with native support for your server version for optimal experience. This plugin version was made for 1.5 - 1.21.4.
-[01:14:55] [Server thread/INFO]: [TAB] Loaded NMS hook in 26ms
-[01:14:55] [ForkJoinPool.commonPool-worker-1/INFO]: [PlaytimeCommand] Plugin startup completed in 219ms
-[01:14:55] [Server thread/INFO]: [TAB] Enabled in 217ms
-[01:14:55] [Server thread/INFO]: [spark] Starting background profiler...
-[01:14:55] [BlueMap-Load/INFO]: [BlueMap] Resources loaded.
-[01:14:55] [BlueMap-Load/INFO]: [BlueMap] Initializing Storage: 'file' (Type: 'bluemap:file')
-[01:14:55] [BlueMap-Load/INFO]: [BlueMap] Loading map 'world_the_end'...
-[01:14:56] [Server thread/INFO]: [PlaytimeCommand] Registered command
-[01:14:56] [BlueMap-Load/INFO]: [BlueMap] Loading map 'world'...
-[01:14:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:14:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01:14:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01:14:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:14:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:14:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:14:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:14:56] [Server thread/INFO]: Running delayed init tasks
-[01:14:56] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[01:14:56] [Server thread/INFO]: [Slimefun] Collecting Snapshots of all Recipes...
-[01:14:56] [Server thread/INFO]: [Slimefun] Found 2,208 Recipes!
-[01:14:56] [Server thread/INFO]: 
-[01:14:56] [Server thread/INFO]:   ╔══════════════════════════════════════════════════════════╗
-[01:14:56] [Server thread/INFO]:   ║  ✦ Slimefun4Core v4.0-UNOFFICIAL — Loaded Successfully       ║
-[01:14:56] [Server thread/INFO]:   ╠══════════════════════════════════════════════════════════╣
-[01:14:56] [Server thread/INFO]:   ║  ✔ Items:       555 (555 core + 0 from 0 addons)  ║
-[01:14:56] [Server thread/INFO]:   ║  ✔ Researches:  258                                      ║
-[01:14:56] [Server thread/INFO]:   ╠══════════════════════════════════════════════════════════╣
-[01:14:56] [Server thread/INFO]:   ║  ⚠ UNOFFICIAL MODIFIED BUILD — No official support   ║
-[01:14:56] [Server thread/INFO]:   ║   Maintained by R2Ksanu for Paper/Purpur 26.x       ║
-[01:14:56] [Server thread/INFO]:   ╚══════════════════════════════════════════════════════════╝
-[01:14:56] [Server thread/INFO]: 
-[01:14:56] [BlueMap-Load/INFO]: [BlueMap] Loading map 'world_the_nether'...
-[01:14:56] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world"
-[01:14:56] [Server thread/INFO]: [Slimefun] This may take a long time...
-[01:14:56] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
-[01:14:56] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world"
-[01:14:56] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_nether"
-[01:14:56] [Server thread/INFO]: [Slimefun] This may take a long time...
-[01:14:56] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
-[01:14:56] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_nether"
-[01:14:56] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_the_end"
-[01:14:56] [Server thread/INFO]: [Slimefun] This may take a long time...
-[01:14:56] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
-[01:14:56] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_the_end"
-[01:14:56] [Server thread/INFO]: [dough: protection] Loading Protection Modules...
-[01:14:56] [Server thread/INFO]: [dough: protection] This may happen more than once.
-[01:14:56] [Server thread/INFO]: [de.miraculixx.veinminer.Veinminer] All events enabled!
-[01:14:56] [Server thread/INFO]: Done (10.529s)! For help, type "help"
-[01:14:56] [BlueMap-Load/INFO]: [BlueMap] WebServer bound to all network interfaces on port 8100
-[01:14:56] [BlueMap-Webserver/INFO]: [BlueMap] WebServer started.
-[01:14:56] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
-[01:14:56] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (26.1.2)
-[01:14:56] [Paper Async Task Handler Thread - 1/WARN]: However, you are 4 release(s) behind the latest stable release (26.3)!
-[01:14:56] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
-[01:14:56] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
-[01:14:56] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
-[01:14:56] [BlueMap-Load/INFO]: [BlueMap] Loaded!
-[01:15:01] [User Authenticator #0/INFO]: UUID of player C2gl is ac59ab29-63a9-4865-912e-ab25be6efa08
-[01:15:02] [Server thread/INFO]: C2gl joined the game
-[01:15:02] [Server thread/INFO]: C2gl[/127.0.0.1:42274] logged in with entity id 77 at ([minecraft:overworld]-58.69999998807907, 126.0, 1103.3331862292073)
-[01:15:02] [TAB Processing Thread/INFO]: [TAB] [WARN] Player C2gl's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[01:18:05] [Server thread/INFO]: C2gl lost connection: Disconnected
-[01:18:05] [Server thread/INFO]: C2gl left the game
-[01:20:48] [Server thread/INFO]: Stopping server
-[01:20:48] [Server thread/INFO]: [TAB] Disabling TAB v5.0.7
-[01:20:48] [Server thread/INFO]: [TAB] Disabled in 0ms
-[01:20:48] [Server thread/INFO]: [Veinminer_Enchantment] Disabling Veinminer_Enchantment v2.13.0
-[01:20:48] [Server thread/INFO]: [Chunky] Disabling Chunky v1.5.3
-[01:20:48] [Server thread/INFO]: [PlaytimeCommand] Disabling PlaytimeCommand v1.4.0
-[01:20:48] [Server thread/INFO]: [PlaytimeCommand] Shutting down
-[01:20:48] [Server thread/INFO]: [Slimefun] Disabling Slimefun v4.0-UNOFFICIAL
-[01:20:48] [Server thread/INFO]: [Slimefun] Backed up Slimefun data to: 2026-11-03-01-20.zip
-[01:20:48] [Server thread/INFO]: [Slimefun] ✦ AddonService shutting down.
-[01:20:48] [Server thread/INFO]: [✦ AddonManager] Addon system shut down gracefully.
-[01:20:48] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.12.2
-[01:20:48] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[01:20:48] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.13.0
-[01:20:48] [Server thread/INFO]: [BlueMap] Disabling BlueMap v5.29
-[01:20:48] [Server thread/INFO]: [BlueMap] Stopping...
-[01:20:48] [Server thread/INFO]: [BlueMap] Saved and stopped!
-[01:20:48] [Server thread/INFO]: Saving players
-[01:20:48] [Server thread/INFO]: Saving worlds
-[01:20:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.00s
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
-[01:20:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
-[01:20:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
-[01:20:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
-[01:20:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:20:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:20:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:20:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:20:49] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[01:20:49] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[01:20:49] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[01:20:49] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[22:02:35] [Server thread/INFO]: [TAB] Please update the plugin to a version with native support for your server version for optimal experience. This plugin version was made for 1.5 - 1.21.4.
+[22:02:35] [Server thread/INFO]: [TAB] Loaded NMS hook in 51ms
+[22:02:35] [ForkJoinPool.commonPool-worker-1/INFO]: [PlaytimeCommand] Plugin startup completed in 247ms
+[22:02:35] [BlueMap-Load/INFO]: [BlueMap] Initializing Storage: 'file' (Type: 'bluemap:file')
+[22:02:35] [BlueMap-Load/INFO]: [BlueMap] Loading map 'world_the_end'...
+[22:02:35] [Server thread/INFO]: [TAB] Enabled in 320ms
+[22:02:35] [Server thread/INFO]: [spark] Starting background profiler...
+[22:02:36] [BlueMap-Load/INFO]: [BlueMap] Loading map 'world'...
+[22:02:36] [Server thread/INFO]: [PlaytimeCommand] Registered command
+[22:02:36] [BlueMap-Load/INFO]: [BlueMap] Loading map 'world_the_nether'...
+[22:02:36] [BlueMap-Load/INFO]: [BlueMap] WebServer bound to all network interfaces on port 8100
+[22:02:36] [BlueMap-Webserver/INFO]: [BlueMap] WebServer started.
+[22:02:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:02:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:02:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:02:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:02:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:02:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:02:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:02:37] [Server thread/INFO]: Running delayed init tasks
+[22:02:37] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[22:02:37] [BlueMap-Load/INFO]: [BlueMap] Loaded!
+[22:02:37] [Server thread/INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[22:02:37] [Server thread/INFO]: [Slimefun] Found 2,208 Recipes!
+[22:02:37] [Server thread/INFO]: 
+[22:02:37] [Server thread/INFO]:   ╔══════════════════════════════════════════════════════════╗
+[22:02:37] [Server thread/INFO]:   ║  ✦ Slimefun4Core v4.0-UNOFFICIAL — Loaded Successfully       ║
+[22:02:37] [Server thread/INFO]:   ╠══════════════════════════════════════════════════════════╣
+[22:02:37] [Server thread/INFO]:   ║  ✔ Items:       555 (555 core + 0 from 0 addons)  ║
+[22:02:37] [Server thread/INFO]:   ║  ✔ Researches:  258                                      ║
+[22:02:37] [Server thread/INFO]:   ╠══════════════════════════════════════════════════════════╣
+[22:02:37] [Server thread/INFO]:   ║  ⚠ UNOFFICIAL MODIFIED BUILD — No official support   ║
+[22:02:37] [Server thread/INFO]:   ║   Maintained by R2Ksanu for Paper/Purpur 26.x       ║
+[22:02:37] [Server thread/INFO]:   ╚══════════════════════════════════════════════════════════╝
+[22:02:37] [Server thread/INFO]: 
+[22:02:37] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world"
+[22:02:37] [Server thread/INFO]: [Slimefun] This may take a long time...
+[22:02:37] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 6ms)
+[22:02:37] [Server thread/INFO]: [Slimefun] Loaded a total of 9 Blocks for World "world"
+[22:02:37] [Server thread/INFO]: [Slimefun] Avg: 0.67ms/Block
+[22:02:37] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_nether"
+[22:02:37] [Server thread/INFO]: [Slimefun] This may take a long time...
+[22:02:37] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[22:02:37] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_nether"
+[22:02:37] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_the_end"
+[22:02:37] [Server thread/INFO]: [Slimefun] This may take a long time...
+[22:02:37] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[22:02:37] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_the_end"
+[22:02:37] [Server thread/INFO]: [dough: protection] Loading Protection Modules...
+[22:02:37] [Server thread/INFO]: [dough: protection] This may happen more than once.
+[22:02:37] [Server thread/INFO]: [de.miraculixx.veinminer.Veinminer] All events enabled!
+[22:02:37] [Server thread/INFO]: Done (13.820s)! For help, type "help"
+[22:02:37] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[22:02:37] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (26.1.2)
+[22:02:37] [Paper Async Task Handler Thread - 1/WARN]: However, you are 4 release(s) behind the latest stable release (26.3)!
+[22:02:37] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
+[22:02:37] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
+[22:02:37] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[22:02:40] [User Authenticator #0/INFO]: UUID of player C2gl is ac59ab29-63a9-4865-912e-ab25be6efa08
+[22:02:41] [Server thread/INFO]: C2gl joined the game
+[22:02:41] [Server thread/INFO]: C2gl[/127.0.0.1:58930] logged in with entity id 101 at ([minecraft:overworld]-88.51249998807907, 127.0, 1084.8309892782227)
+[22:02:41] [TAB Processing Thread/INFO]: [TAB] [WARN] Player C2gl's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[22:03:03] [User Authenticator #1/INFO]: UUID of player Art3mis7200 is fb8b22a9-7f5f-4cfb-94cf-fc0bfd20a670
+[22:03:04] [Server thread/INFO]: Art3mis7200 joined the game
+[22:03:04] [Server thread/INFO]: Art3mis7200[/127.0.0.1:39594] logged in with entity id 266 at ([minecraft:overworld]-553.9343984214514, 71.0, 414.63521603883737)
+[22:03:04] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Art3mis7200's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[22:03:06] [Async Chat Thread - #1/INFO]: <C2gl> wb
+[22:10:06] [Server thread/INFO]: Art3mis7200 has made the advancement [What a Deal!]
+[22:11:50] [Async Chat Thread - #2/INFO]: <C2gl> ik ga er dan vandoor voor vandaag, chus!
+[22:11:54] [Server thread/INFO]: C2gl lost connection: Disconnected
+[22:11:54] [Server thread/INFO]: C2gl left the game
+[22:11:54] [Async Chat Thread - #2/INFO]: <Art3mis7200> ciqo
+[22:21:54] [Server thread/INFO]: There are 1 of a max of 20 players online: Art3mis7200
